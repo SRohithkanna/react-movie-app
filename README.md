@@ -1,16 +1,16 @@
-# React + Vite
+A simple and responsive ReactJS web application that displays real-time movie data using the TMDB (The Movie Database) API.
+Users can search for movies, view posters and release dates, and manage their favorite movies — all in one place.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features:-
 
-Currently, two official plugins are available:
+1.Search Movies — search live data from TMDB’s movie API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2.Popular Movies — shows trending/popular movies on the home page
 
-## React Compiler
+3.Add to Favorites — save movies to your favorites list using localStorage
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+4.Persistent Storage — favorites stay saved even after page reload
 
-## Expanding the ESLint configuration
+5.Routing — smooth navigation using React Router (Home & Favorites pages)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+6.Responsive Design — simple, clean UI built with custom CSS
